@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans';
+}
+#login{
+    padding-top: 50px;
+    text-align: center;
+}
+#form {
+    display: block;
+    margin-bottom: 185px;
+    margin-top: 185px;
+    overflow: hidden;
+}
+.login-form form input,
+.signup-form form input,
+.signup-form form select,
+.signup-form form textarea {
+    background: #F0F0E9;
+    border: medium none;
+    color: #696763;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+.login-form form button {
+    margin-top: 23px;
+}
+
+.login-form form button,
+.login-form label {}
+
+.login-form label input {
+    border: medium none;
+    display: inline-block;
+    height: 0;
+    margin-bottom: 0;
+    outline: medium none;
+    padding-left: 0;
+}
