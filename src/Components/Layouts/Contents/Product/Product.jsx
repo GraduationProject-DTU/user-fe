@@ -36,7 +36,7 @@ function Product() {
                         </div>
                     </div>
                 </div>
-                <div className='product'>
+                <div className='contain-product'>
                     <div className='wrap'>
                         <div className='header-product'>
                             <p>
@@ -47,14 +47,29 @@ function Product() {
                                 <option className='product-dropbox-text' selected='selected'>Mới Nhất </option>
                                 <option className='product-dropbox-text'><span>Thứ tự theo giá : thấp đến cao </span></option>
                                 <option className='product-dropbox-text'>Thứ tự theo giá : cao đến thấp </option>
-
                             </select>
 
                         </div>
 
-                        <div className='product'>
+                        <div className='wrap-product-item'>
+
+                            <div className='product-item'>
+                                <img className='product-img' src='https://cf.shopee.vn/file/b6b3feb7c29646d0730a9571331c934f' />
+                                <div className='product-title'>SỮA RỬA MẶT MEEA .......</div>
+                                <div className='product-desc'>Sửa rửa mặt trị mụn , sẹo , giúp làm đẹp da .........</div>
+                                <div style={{ display: 'flex' }}>
+                                    <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>
+                                    <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>
+                                    <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>
+                                    <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>
+                                </div>
+
+                                <div className='product-price'>200.000 VND</div>
+                            </div>
 
                         </div>
+
+
                     </div>
                 </div>
             </div>

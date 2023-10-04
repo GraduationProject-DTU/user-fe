@@ -15,11 +15,42 @@
     display: block;
 }
 
-.product {
+.contain-product {
     padding: 32px;
     width: 80%;
     margin-left: 32px;
 
+}
+
+.wrap-product-item{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+}
+
+.product-item{
+    width: 250px;
+    height: 340px;
+    margin: 40px 12px;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title{
+    font-size: 18px;
+    margin: 8px 0;
+    font: bold;
+}
+
+.product-desc{
+    margin: 8px 0;
+}
+
+.product-price{
+    margin: 8px 0;
 }
 
 .product-dropbox {
@@ -30,6 +61,7 @@
 .product-dropbox-text {
     padding: 12px;
 }
+
 
 .title-brand {
     text-align: center;
