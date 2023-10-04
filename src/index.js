@@ -11,6 +11,8 @@ import {
 } from "react-router-dom"
 import Homepage from './Components/Pages/Homepage';
 import Introduction from './Components/Pages/Introduction';
+import Login from './Components/Layouts/Login/Login';
+import Register from './Components/Layouts/Register/Register';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -19,6 +21,8 @@ root.render(
         <Routes>
             <Route index path="/" element={<Homepage/>}/>
             <Route path='intro' element={<Introduction/>}/>
+            <Route path='login' element={<Login/>}/>
+            <Route path='register' element={<Register/>}/>
         </Routes>
       </App>
     </Router>
