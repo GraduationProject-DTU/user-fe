@@ -11,14 +11,17 @@ import {
 } from "react-router-dom"
 import Homepage from './Components/Pages/Homepage';
 import Introduction from './Components/Pages/Introduction';
+import ProductPage from './Components/Pages/ProductPage';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
       <App>
         <Routes>
-            <Route index path="/" element={<Homepage/>}/>
-            <Route path='intro' element={<Introduction/>}/>
+          <Route index path="/" element={<Homepage />} />
+          <Route path='intro' element={<Introduction />} />
+          <Route path='product' element={<ProductPage />} />
         </Routes>
       </App>
     </Router>

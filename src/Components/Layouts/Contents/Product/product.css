@@ -1,0 +1,74 @@
+.title-product {
+    text-align: center;
+    margin: 32px;
+}
+
+.contain {
+    display: flex;
+    width: 100%;
+    padding: 0 12px;
+    
+}
+
+.product-category{
+    width: 20%;
+    display: block;
+}
+
+.product {
+    padding: 32px;
+    width: 80%;
+    margin-left: 32px;
+
+}
+
+.product-dropbox {
+    width: 250px;
+    padding: 12px;
+}
+
+.product-dropbox-text {
+    padding: 12px;
+}
+
+.title-brand {
+    text-align: center;
+    padding: 32px;
+}
+.wrap-brand {
+    height: 252px;
+}   
+
+.inp-brand {
+    padding: 12px;
+    margin: 0 32px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.brand{
+    overflow-y: auto;
+    margin-left: 32px;
+    height: 200px;
+}
+
+.brand:hover{
+    cursor: pointer;
+}
+
+.contain-price {
+    margin: 0 32px;
+}
+
+.wrap-price{
+    margin: 12px;
+}
+
+.price-check{
+    margin-right: 8px;
+}
+
+.header-product {
+    display: flex;
+    justify-content: space-between;
+}
