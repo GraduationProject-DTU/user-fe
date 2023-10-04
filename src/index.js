@@ -7,14 +7,15 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  RouterProvider
+  RouterProvider,
 } from "react-router-dom"
 import Homepage from './Components/Pages/Homepage';
 import Introduction from './Components/Pages/Introduction';
 import ProductPage from './Components/Pages/ProductPage';
-
 import Login from './Components/Layouts/Login/Login';
 import Register from './Components/Layouts/Register/Register';
+import Form from './Components/Layouts/Account/Form';
+import Blogmain from './Components/Pages/Blogmain';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -24,10 +25,10 @@ root.render(
           <Route index path="/" element={<Homepage />} />
           <Route path='intro' element={<Introduction />} />
           <Route path='product' element={<ProductPage />} />
-            <Route index path="/" element={<Homepage/>}/>
-            <Route path='intro' element={<Introduction/>}/>
-            <Route path='login' element={<Login/>}/>
-            <Route path='register' element={<Register/>}/>
+          <Route index path="/" element={<Homepage/>}/>
+          <Route path='intro' element={<Introduction/>}/>
+          <Route path='form' element={<Form/>}/>
+          <Route path='blog' element={<Blogmain/>}/>
         </Routes>
       </App>
     </Router>

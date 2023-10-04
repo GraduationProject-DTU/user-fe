@@ -5,7 +5,6 @@
     list-style: none;
     font-family: 'Josefin Sans';
 }
-#register{
-    padding-top: 50px;
+.signup-form{
     text-align: center;
 }

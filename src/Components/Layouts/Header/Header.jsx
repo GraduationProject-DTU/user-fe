@@ -20,7 +20,7 @@ function Header() {
                         <li><a href="">unisex</a></li>
                     </ul>
                 </li>
-                <li><a href="">blog</a></li>
+                <li><Link to={"blog"}><a href="">blog</a></Link></li>
             </ul>
             <div id="header-icons">
                 <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>

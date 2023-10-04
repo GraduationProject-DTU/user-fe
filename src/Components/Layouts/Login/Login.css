@@ -15,6 +15,9 @@
     margin-top: 185px;
     overflow: hidden;
 }
+.login-form{
+    text-align: center;
+}
 .login-form form input,
 .signup-form form input,
 .signup-form form select,

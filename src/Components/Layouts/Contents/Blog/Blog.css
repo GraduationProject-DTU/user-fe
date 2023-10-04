@@ -5,7 +5,25 @@
     list-style: none;
     font-family: 'Josefin Sans';
 }
-.blog-imagefirstpage{
-    display: flex;
-    position: relative;
+#blog{
+    padding-top: 50px;
+}
+.blog-menu-dad{
+    text-align: center;
+}
+.blog-menu-dad li:nth-child(3),
+.blog-menu-dad li:nth-child(2),
+.blog-menu-dad li:nth-child(1)
+{
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+}
+.blog-list .container .row .col-sm h2,
+.blog-list .container .row .col-sm p {
+    color: black;
+}
+.blog-list .container .row .col-sm p{
+    font-size: 18px;
+    display: block;
 }
