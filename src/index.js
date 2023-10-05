@@ -16,6 +16,7 @@ import Login from './Components/Layouts/Login/Login';
 import Register from './Components/Layouts/Register/Register';
 import Form from './Components/Layouts/Account/Form';
 import Blogmain from './Components/Pages/Blogmain';
+import Blogdetail from './Components/Layouts/Contents/Blog/Blogdetails';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,10 +26,9 @@ root.render(
           <Route index path="/" element={<Homepage />} />
           <Route path='intro' element={<Introduction />} />
           <Route path='product' element={<ProductPage />} />
-          <Route index path="/" element={<Homepage/>}/>
-          <Route path='intro' element={<Introduction/>}/>
           <Route path='form' element={<Form/>}/>
           <Route path='blog' element={<Blogmain/>}/>
+          <Route path='blogdetails/' element ={<Blogdetail/>}/>
         </Routes>
       </App>
     </Router>
