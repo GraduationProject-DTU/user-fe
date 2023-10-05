@@ -16,8 +16,6 @@ function Product() {
                             <p>MEE</p>
                             <p>MEE</p>
                             <p>MEE</p>
-                            <p>MEE</p>
-                            <p>MEE</p>
                         </div>
                     </div>
                     <h2 className='title-brand'>THEO GIÁ</h2>
