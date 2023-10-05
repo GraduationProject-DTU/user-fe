@@ -25,7 +25,7 @@ function Header() {
             <div id="header-icons">
                 <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
                 <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href=""><Link to={'cart'}><i class="fa fa-shopping-cart" aria-hidden="true"></i></Link></a>
             </div>
         </div >
     )
