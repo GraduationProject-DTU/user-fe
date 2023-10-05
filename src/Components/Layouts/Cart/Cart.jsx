@@ -3,7 +3,7 @@ import './cart.css'
 
 function Cart() {
     return (
-        <div className='contain'>
+        <div className='cart-contain'>
             <div style={{ width: '100%' }}>
                 <h1>Sản Phẩm Đã Chọn</h1>
                 <p className='cart-empty'>Chưa có sản phẩm trong giỏ hàng</p>

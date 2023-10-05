@@ -1,0 +1,30 @@
+.product-detail-contain{
+
+}
+
+.wrap-detail{
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    border-bottom: 1px solid rgb(117, 115, 115);
+    margin-top: 50px;
+}
+
+.left{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.right {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.product-detail-img{
+    width: 50%;
+    text-align: center;
+}
+
+.title{
+    margin: 12px 0;
+}

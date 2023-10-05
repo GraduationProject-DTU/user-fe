@@ -1,11 +1,15 @@
 import React from 'react'
 import './product.css'
+import { Link } from 'react-router-dom'
 
 function Product() {
+
+
+
     return (
         <div id='product'>
             <h1 className='title-product'>SHOP</h1>
-            <div className='contain'>
+            <div className='product-contain'>
                 <div className='product-category'>
                     <h2 className='title-brand'>THƯƠNG HIỆU</h2>
                     <div className='wrap-brand'>
@@ -52,9 +56,11 @@ function Product() {
                         <div className='wrap-product-item'>
 
                             <div className='product-item'>
-                                <img className='product-img' src='https://cf.shopee.vn/file/b6b3feb7c29646d0730a9571331c934f' />
-                                <div className='product-title'>SỮA RỬA MẶT MEEA .......</div>
-                                <div className='product-desc'>Sửa rửa mặt trị mụn , sẹo , giúp làm đẹp da .........</div>
+                                <Link to={"/product-detail"}>
+                                    <img className='product-img' src='https://cf.shopee.vn/file/b6b3feb7c29646d0730a9571331c934f' />
+                                    <div className='product-title'>SỮA RỬA MẶT MEEA .......</div>
+                                    <div className='product-desc'>Sửa rửa mặt trị mụn , sẹo , giúp làm đẹp da .........</div>
+                                </Link>
                                 <div style={{ display: 'flex' }}>
                                     <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>
                                     <i class="fa fa-heart" aria-hidden="true" style={{ marginRight: '4px' }}></i>

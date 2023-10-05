@@ -1,9 +1,11 @@
+
+
 .title-product {
     text-align: center;
     margin: 32px;
 }
 
-.contain {
+.product-contain {
     display: flex;
     width: 100%;
     padding: 0 12px;

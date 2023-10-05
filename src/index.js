@@ -17,6 +17,7 @@ import Register from './Components/Layouts/Register/Register';
 import Form from './Components/Layouts/Account/Form';
 import Blogmain from './Components/Pages/Blogmain';
 import CartPage from './Components/Pages/CartPage';
+import ProductDetailPage from './Components/Pages/ProductDetailPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -31,6 +32,7 @@ root.render(
           <Route path='form' element={<Form />} />
           <Route path='blog' element={<Blogmain />} />
           <Route path='cart' element={<CartPage />} />
+          <Route path='product-detail' element={<ProductDetailPage />} />
         </Routes>
       </App>
     </Router>
